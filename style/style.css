@@ -15,6 +15,14 @@
     background: yellow;
 }
 
+#etchasketch > div > div:hover {
+    background-color: blue;
+}
+
+.color {
+    background-color: green;
+}
+
 .column {
     flex: 1;
     height: auto;
@@ -24,5 +32,6 @@
 
 .row {
     flex: 1;
+    border: 1px solid red;
 }
 
