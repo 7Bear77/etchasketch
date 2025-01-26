@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#etchasketch {
+    max-height: 90vh;
+    min-height: 50vh;
+    height: 900px;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    display: flex;
+    justify-self: center;
+    margin-top: 5%;
+    background: yellow;
+}
+
+.column {
+    flex: 1;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    flex: 1;
+}
+
