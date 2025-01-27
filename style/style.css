@@ -4,23 +4,16 @@
 }
 
 #etchasketch {
-    max-height: 90vh;
     min-height: 50vh;
-    height: 900px;
-    aspect-ratio: 1/1;
+    min-width: 70vh;
+    max-height: 90vh;
     border: 1px solid black;
     display: flex;
-    justify-self: center;
-    margin-top: 5%;
-    background: yellow;
-}
-
-#etchasketch > div > div:hover {
-    background-color: blue;
-}
-
-.color {
-    background-color: green;
+    background: #efefef;
+    padding: 4px;
+    margin: 24px;
+    border-radius: 4px;
+    aspect-ratio: 1/1;
 }
 
 .column {
@@ -32,6 +25,43 @@
 
 .row {
     flex: 1;
-    border: 1px solid red;
+    border: 1px solid #efefef;
 }
 
+#sketchPlastic {
+    background-color: red;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    padding: 8px 16px 24px 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    margin-top: auto;
+}
+
+#newColorButton {
+    margin-right: auto;
+    border-radius: 50%;
+    width: 15%;
+    aspect-ratio: 1/1;
+}
+
+#resizeScreenButton {
+    border-radius: 24px;
+    flex: 1;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#backToBlack {
+    margin-left: auto;
+    border-radius: 50%;
+    width: 15%;
+    aspect-ratio: 1/1;
+}
